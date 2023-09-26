@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F4DE3990-E258-4610-9F23-1FCB4732FDC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoGem.Data", "src\GeoGem.Data\GeoGem.Data.csproj", "{DA4EE3AD-FF46-4BBE-BD73-BDEE88E8D796}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoGem.Domain", "src\GeoGem.Domain\GeoGem.Domain.csproj", "{6B34A21A-D984-4E74-8590-796B26B433AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoGem.Service", "src\GeoGem.Service\GeoGem.Service.csproj", "{033066C2-DCA6-4F52-8860-01461C5D3AB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoGem.Presentation", "src\GeoGem.Presentation\GeoGem.Presentation.csproj", "{8A81945C-7287-4411-B5BA-D66880E242B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA4EE3AD-FF46-4BBE-BD73-BDEE88E8D796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4EE3AD-FF46-4BBE-BD73-BDEE88E8D796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4EE3AD-FF46-4BBE-BD73-BDEE88E8D796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4EE3AD-FF46-4BBE-BD73-BDEE88E8D796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B34A21A-D984-4E74-8590-796B26B433AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B34A21A-D984-4E74-8590-796B26B433AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B34A21A-D984-4E74-8590-796B26B433AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B34A21A-D984-4E74-8590-796B26B433AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033066C2-DCA6-4F52-8860-01461C5D3AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033066C2-DCA6-4F52-8860-01461C5D3AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033066C2-DCA6-4F52-8860-01461C5D3AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033066C2-DCA6-4F52-8860-01461C5D3AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A81945C-7287-4411-B5BA-D66880E242B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A81945C-7287-4411-B5BA-D66880E242B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A81945C-7287-4411-B5BA-D66880E242B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A81945C-7287-4411-B5BA-D66880E242B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA4EE3AD-FF46-4BBE-BD73-BDEE88E8D796} = {F4DE3990-E258-4610-9F23-1FCB4732FDC6}
+		{6B34A21A-D984-4E74-8590-796B26B433AF} = {F4DE3990-E258-4610-9F23-1FCB4732FDC6}
+		{033066C2-DCA6-4F52-8860-01461C5D3AB0} = {F4DE3990-E258-4610-9F23-1FCB4732FDC6}
+		{8A81945C-7287-4411-B5BA-D66880E242B6} = {F4DE3990-E258-4610-9F23-1FCB4732FDC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50C03B34-2D27-4200-9D66-7EBC46799C0B}
+	EndGlobalSection
+EndGlobal

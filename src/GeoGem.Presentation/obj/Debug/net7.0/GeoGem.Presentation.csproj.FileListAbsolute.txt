@@ -1,0 +1,14 @@
+E:\Projects\GeoGem\src\GeoGem.Presentation\bin\Debug\net7.0\GeoGem.Presentation.exe
+E:\Projects\GeoGem\src\GeoGem.Presentation\bin\Debug\net7.0\GeoGem.Presentation.deps.json
+E:\Projects\GeoGem\src\GeoGem.Presentation\bin\Debug\net7.0\GeoGem.Presentation.runtimeconfig.json
+E:\Projects\GeoGem\src\GeoGem.Presentation\bin\Debug\net7.0\GeoGem.Presentation.dll
+E:\Projects\GeoGem\src\GeoGem.Presentation\bin\Debug\net7.0\GeoGem.Presentation.pdb
+E:\Projects\GeoGem\src\GeoGem.Presentation\obj\Debug\net7.0\GeoGem.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\GeoGem\src\GeoGem.Presentation\obj\Debug\net7.0\GeoGem.Presentation.AssemblyInfoInputs.cache
+E:\Projects\GeoGem\src\GeoGem.Presentation\obj\Debug\net7.0\GeoGem.Presentation.AssemblyInfo.cs
+E:\Projects\GeoGem\src\GeoGem.Presentation\obj\Debug\net7.0\GeoGem.Presentation.csproj.CoreCompileInputs.cache
+E:\Projects\GeoGem\src\GeoGem.Presentation\obj\Debug\net7.0\GeoGem.Presentation.dll
+E:\Projects\GeoGem\src\GeoGem.Presentation\obj\Debug\net7.0\refint\GeoGem.Presentation.dll
+E:\Projects\GeoGem\src\GeoGem.Presentation\obj\Debug\net7.0\GeoGem.Presentation.pdb
+E:\Projects\GeoGem\src\GeoGem.Presentation\obj\Debug\net7.0\GeoGem.Presentation.genruntimeconfig.cache
+E:\Projects\GeoGem\src\GeoGem.Presentation\obj\Debug\net7.0\ref\GeoGem.Presentation.dll
