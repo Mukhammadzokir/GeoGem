@@ -4,14 +4,79 @@
     "E:\\Projects\\GeoGem\\src\\GeoGem.Presentation\\GeoGem.Presentation.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\GeoGem\\src\\GeoGem.Presentation\\GeoGem.Presentation.csproj": {
+    "E:\\Projects\\GeoGem\\src\\GeoGem.Data\\GeoGem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\GeoGem\\src\\GeoGem.Presentation\\GeoGem.Presentation.csproj",
-        "projectName": "GeoGem.Presentation",
-        "projectPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Presentation\\GeoGem.Presentation.csproj",
+        "projectUniqueName": "E:\\Projects\\GeoGem\\src\\GeoGem.Data\\GeoGem.Data.csproj",
+        "projectName": "GeoGem.Data",
+        "projectPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Data\\GeoGem.Data.csproj",
         "packagesPath": "C:\\Users\\VICTUS\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Presentation\\obj\\",
+        "outputPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Projects\\GeoGem\\src\\GeoGem.Domain\\GeoGem.Domain.csproj": {
+                "projectPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Domain\\GeoGem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\GeoGem\\src\\GeoGem.Domain\\GeoGem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\GeoGem\\src\\GeoGem.Domain\\GeoGem.Domain.csproj",
+        "projectName": "GeoGem.Domain",
+        "projectPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Domain\\GeoGem.Domain.csproj",
+        "packagesPath": "C:\\Users\\VICTUS\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +104,133 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\GeoGem\\src\\GeoGem.Presentation\\GeoGem.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\GeoGem\\src\\GeoGem.Presentation\\GeoGem.Presentation.csproj",
+        "projectName": "GeoGem.Presentation",
+        "projectPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Presentation\\GeoGem.Presentation.csproj",
+        "packagesPath": "C:\\Users\\VICTUS\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Projects\\GeoGem\\src\\GeoGem.Service\\GeoGem.Service.csproj": {
+                "projectPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Service\\GeoGem.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\GeoGem\\src\\GeoGem.Service\\GeoGem.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\GeoGem\\src\\GeoGem.Service\\GeoGem.Service.csproj",
+        "projectName": "GeoGem.Service",
+        "projectPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Service\\GeoGem.Service.csproj",
+        "packagesPath": "C:\\Users\\VICTUS\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Projects\\GeoGem\\src\\GeoGem.Data\\GeoGem.Data.csproj": {
+                "projectPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Data\\GeoGem.Data.csproj"
+              },
+              "E:\\Projects\\GeoGem\\src\\GeoGem.Domain\\GeoGem.Domain.csproj": {
+                "projectPath": "E:\\Projects\\GeoGem\\src\\GeoGem.Domain\\GeoGem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "NuGet.Protocol": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

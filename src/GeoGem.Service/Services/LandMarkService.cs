@@ -12,7 +12,7 @@ public class LandMarkService : ILandMarkService
 {
     private long _id;
     private readonly IRepository<LandMark> landMarkRepository = new Repository<LandMark>();
-    public async Task<LandMarkForResultDto> CreateAsync(LandMarkForCreationDto dto)
+    public async Task<LandMarkForResultDto> CreateAsync(landMarkCreationDto dto)
     {
         var landMark = (await landMarkRepository.SelectAllAsync())
             .FirstOrDefault(l => l.Latitude == dto.Latitude && l.Longitude == dto.Longitude);

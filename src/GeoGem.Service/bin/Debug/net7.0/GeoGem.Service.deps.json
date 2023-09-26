@@ -1,0 +1,230 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "GeoGem.Service/1.0.0": {
+        "dependencies": {
+          "GeoGem.Data": "1.0.0",
+          "GeoGem.Domain": "1.0.0",
+          "NuGet.Protocol": "6.7.0"
+        },
+        "runtime": {
+          "GeoGem.Service.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "NuGet.Common/6.7.0": {
+        "dependencies": {
+          "NuGet.Frameworks": "6.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Common.dll": {
+            "assemblyVersion": "6.7.0.127",
+            "fileVersion": "6.7.0.127"
+          }
+        }
+      },
+      "NuGet.Configuration/6.7.0": {
+        "dependencies": {
+          "NuGet.Common": "6.7.0",
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Configuration.dll": {
+            "assemblyVersion": "6.7.0.127",
+            "fileVersion": "6.7.0.127"
+          }
+        }
+      },
+      "NuGet.Frameworks/6.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {
+            "assemblyVersion": "6.7.0.127",
+            "fileVersion": "6.7.0.127"
+          }
+        }
+      },
+      "NuGet.Packaging/6.7.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "NuGet.Configuration": "6.7.0",
+          "NuGet.Versioning": "6.7.0",
+          "System.Security.Cryptography.Pkcs": "6.0.4"
+        },
+        "runtime": {
+          "lib/net5.0/NuGet.Packaging.dll": {
+            "assemblyVersion": "6.7.0.127",
+            "fileVersion": "6.7.0.127"
+          }
+        }
+      },
+      "NuGet.Protocol/6.7.0": {
+        "dependencies": {
+          "NuGet.Packaging": "6.7.0"
+        },
+        "runtime": {
+          "lib/net5.0/NuGet.Protocol.dll": {
+            "assemblyVersion": "6.7.0.127",
+            "fileVersion": "6.7.0.127"
+          }
+        }
+      },
+      "NuGet.Versioning/6.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Versioning.dll": {
+            "assemblyVersion": "6.7.0.127",
+            "fileVersion": "6.7.0.127"
+          }
+        }
+      },
+      "System.Formats.Asn1/6.0.0": {},
+      "System.Security.Cryptography.Pkcs/6.0.4": {
+        "dependencies": {
+          "System.Formats.Asn1": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1923.31806"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1923.31806"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "GeoGem.Data/1.0.0": {
+        "dependencies": {
+          "GeoGem.Domain": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "GeoGem.Data.dll": {}
+        }
+      },
+      "GeoGem.Domain/1.0.0": {
+        "runtime": {
+          "GeoGem.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeoGem.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "NuGet.Common/6.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o3hdvub38qN4UuPWISIvdhM36liEno2o58LRnIrSucZ6+SNv4jc+Cqh/y7BfmQ+UvpqLY19yEc4123rMpp6Edg==",
+      "path": "nuget.common/6.7.0",
+      "hashPath": "nuget.common.6.7.0.nupkg.sha512"
+    },
+    "NuGet.Configuration/6.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M1ttuwgjCNIEcgjFj3Fh/SZ/CaZY11SpxDOEOgPFUxB24K9JMGnB5BGBMOV8joleNcbwzEEY6WCVwHPYg3bb9A==",
+      "path": "nuget.configuration/6.7.0",
+      "hashPath": "nuget.configuration.6.7.0.nupkg.sha512"
+    },
+    "NuGet.Frameworks/6.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mTKaTSINpCjMHTNdaPMD/0nfHvWGetG67KzWtDJklnAp9nNwqA+t65G0v8XA/Ve35ipmPRdklxFIl3O55iTgnQ==",
+      "path": "nuget.frameworks/6.7.0",
+      "hashPath": "nuget.frameworks.6.7.0.nupkg.sha512"
+    },
+    "NuGet.Packaging/6.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uDhdZXzW8MLXhloPla/7j8jBWduNhDvY5UC1Dg1z8zJEvkGSj+WAcXKvymDf9UpbyiklWmonlb2hkX02ToJ1yQ==",
+      "path": "nuget.packaging/6.7.0",
+      "hashPath": "nuget.packaging.6.7.0.nupkg.sha512"
+    },
+    "NuGet.Protocol/6.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CZvnf3n0A1wtGNHAViLtZbtqZ5KXnI/fDe0CE+rphoIYJP91D8ImYQG2eM/Y4aQ1n4pcqebg/XVnSr37qjXoeQ==",
+      "path": "nuget.protocol/6.7.0",
+      "hashPath": "nuget.protocol.6.7.0.nupkg.sha512"
+    },
+    "NuGet.Versioning/6.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3sKMpt6btwpv6TKbbpUisT7a9qZoqoAGvHC0lUiqMl9V1oArqXP0DRhlNq7alFynA1HqKOFeRje5kPYkbqFJ/Q==",
+      "path": "nuget.versioning/6.7.0",
+      "hashPath": "nuget.versioning.6.7.0.nupkg.sha512"
+    },
+    "System.Formats.Asn1/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T6fD00dQ3NTbPDy31m4eQUwKW84s03z0N2C8HpOklyeaDgaJPa/TexP4/SkORMSOwc7WhKifnA6Ya33AkzmafA==",
+      "path": "system.formats.asn1/6.0.0",
+      "hashPath": "system.formats.asn1.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LGbXi1oUJ9QgCNGXRO9ndzBL/GZgANcsURpMhNR8uO+rca47SZmciS3RSQUvlQRwK3QHZSHNOXzoMUASKA+Anw==",
+      "path": "system.security.cryptography.pkcs/6.0.4",
+      "hashPath": "system.security.cryptography.pkcs.6.0.4.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+    },
+    "GeoGem.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeoGem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

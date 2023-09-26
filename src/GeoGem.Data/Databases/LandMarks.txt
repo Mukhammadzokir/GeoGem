@@ -1,1 +1,24 @@
-﻿
+[
+  {
+    "CityId": 1,
+    "Name": "Soat",
+    "Description": null,
+    "ImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Flondon.html&psig=AOvVaw35bbelp--efGEuWsFTDKYD&ust=1695808429802000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODzgeuAyIEDFQAAAAAdAAAAABAJ",
+    "Latitude": 4343344.4,
+    "Longitude": 43434.5,
+    "Id": 1,
+    "CreatedAt": "2023-09-26T09:55:05.1191765Z",
+    "UpdatedAt": null
+  },
+  {
+    "CityId": 1,
+    "Name": "Bridge",
+    "Description": null,
+    "ImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lonelyplanet.com%2Fengland%2Flondon&psig=AOvVaw03cf1g7E26elBF76zhHHbE&ust=1695808540064000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNDYzp-ByIEDFQAAAAAdAAAAABAE",
+    "Latitude": 434344.0,
+    "Longitude": 4343.454545,
+    "Id": 2,
+    "CreatedAt": "2023-09-26T09:56:31.6361906Z",
+    "UpdatedAt": null
+  }
+]

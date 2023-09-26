@@ -1,1 +1,11 @@
-﻿
+[
+  {
+    "Name": "def",
+    "Email": "de",
+    "Password": "f",
+    "Balance": 5345.0,
+    "Id": 1,
+    "CreatedAt": "2023-09-26T08:01:35.7781213Z",
+    "UpdatedAt": null
+  }
+]

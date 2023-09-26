@@ -1,1 +1,11 @@
-﻿
+[
+  {
+    "Name": "London",
+    "ImageUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6%2F67%2FLondon_Skyline_%2528125508655%2529.jpeg%2F278px-London_Skyline_%2528125508655%2529.jpeg&tbnid=z474ZTCqwmvEKM&vet=12ahUKEwilwuXpgMiBAxU2JhAIHVyLB7IQMygFegQIARBV..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLondon&docid=odCiPcJpkYVRAM&w=278&h=156&q=london%20pictures&ved=2ahUKEwilwuXpgMiBAxU2JhAIHVyLB7IQMygFegQIARBV",
+    "Latitude": 433224.4,
+    "Longitude": 434.43,
+    "Id": 1,
+    "CreatedAt": "2023-09-26T09:54:24.6829978Z",
+    "UpdatedAt": null
+  }
+]

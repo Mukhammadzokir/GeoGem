@@ -8,5 +8,5 @@ public interface ILandMarkService
     public Task<bool> RemoveAsync(long id);
     public Task<LandMarkForResultDto> GetByIdAsync(long id);
     public Task<LandMarkForResultDto> UpdateAsync(LandMarkForUpdateDto dto);
-    public Task<LandMarkForResultDto> CreateAsync(LandMarkForCreationDto dto);
+    public Task<LandMarkForResultDto> CreateAsync(landMarkCreationDto dto);
 }

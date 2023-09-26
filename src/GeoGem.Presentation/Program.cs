@@ -1,10 +1,12 @@
-﻿namespace GeoGem.Presentation
+﻿using GeoGem.Presentation.Presentations;
+
+namespace GeoGem.Presentation;
+
+public class Program
 {
-    internal class Program
+    static async Task Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        var UI = new UserInterface();
+        await UI.RunningCodeAsync();
     }
 }

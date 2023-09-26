@@ -1,0 +1,15 @@
+E:\Projects\GeoGem\src\GeoGem.Data\obj\Debug\net7.0\GeoGem.Data.csproj.AssemblyReference.cache
+E:\Projects\GeoGem\src\GeoGem.Data\obj\Debug\net7.0\GeoGem.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\GeoGem\src\GeoGem.Data\obj\Debug\net7.0\GeoGem.Data.AssemblyInfoInputs.cache
+E:\Projects\GeoGem\src\GeoGem.Data\obj\Debug\net7.0\GeoGem.Data.AssemblyInfo.cs
+E:\Projects\GeoGem\src\GeoGem.Data\obj\Debug\net7.0\GeoGem.Data.csproj.CoreCompileInputs.cache
+E:\Projects\GeoGem\src\GeoGem.Data\bin\Debug\net7.0\GeoGem.Data.deps.json
+E:\Projects\GeoGem\src\GeoGem.Data\bin\Debug\net7.0\GeoGem.Data.dll
+E:\Projects\GeoGem\src\GeoGem.Data\bin\Debug\net7.0\GeoGem.Data.pdb
+E:\Projects\GeoGem\src\GeoGem.Data\bin\Debug\net7.0\GeoGem.Domain.dll
+E:\Projects\GeoGem\src\GeoGem.Data\bin\Debug\net7.0\GeoGem.Domain.pdb
+E:\Projects\GeoGem\src\GeoGem.Data\obj\Debug\net7.0\GeoGem.Data.csproj.CopyComplete
+E:\Projects\GeoGem\src\GeoGem.Data\obj\Debug\net7.0\GeoGem.Data.dll
+E:\Projects\GeoGem\src\GeoGem.Data\obj\Debug\net7.0\refint\GeoGem.Data.dll
+E:\Projects\GeoGem\src\GeoGem.Data\obj\Debug\net7.0\GeoGem.Data.pdb
+E:\Projects\GeoGem\src\GeoGem.Data\obj\Debug\net7.0\ref\GeoGem.Data.dll
