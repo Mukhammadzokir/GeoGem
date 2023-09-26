@@ -2,10 +2,10 @@
 
 public class DatabasePath
 {
-    public const string UserDb = "E:\\Projects\\GeoGem\\GeoGem.Data\\Databases\\User.txt";
-    public const string CityDb = "E:\\Projects\\GeoGem\\GeoGem.Data\\Databases\\City.txt";
-    public const string LandMarkDb = "E:\\Projects\\GeoGem\\GeoGem.Data\\Databases\\LandMarks.txt";
-    public const string HotelDb = "E:\\Projects\\GeoGem\\GeoGem.Data\\Databases\\Hotel.txt";
-    public const string TicketDb = "E:\\Projects\\GeoGem\\GeoGem.Data\\Databases\\Ticket.txt";
-    public const string BookingDb = "E:\\Projects\\GeoGem\\GeoGem.Data\\Databases\\Booking.txt";
+    public const string UserDb = "../../../../GeoGem.Data/Databases/User.txt";
+    public const string CityDb = "../../../../GeoGem.Data/Databases/City.txt";
+    public const string LandMarkDb = "../../../../GeoGem.Data/Databases/LandMarks.txt";
+    public const string HotelDb = "../../../../GeoGem.Data/Databases/Hotel.txt";
+    public const string TicketDb = "../../../../GeoGem.Data/Databases/Ticket.txt";
+    public const string BookingDb = "../../../../GeoGem.Data/Databases/Booking.txt";
 }

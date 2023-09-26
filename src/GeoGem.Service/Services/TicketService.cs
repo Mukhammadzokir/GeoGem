@@ -2,7 +2,6 @@
 using GeoGem.Data.Repositories;
 using GeoGem.Domain.Entities;
 using GeoGem.Service.DTOs.Tickets;
-using GeoGem.Service.DTOs.Users;
 using GeoGem.Service.Exceptions;
 using GeoGem.Service.Interfaces;
 
@@ -43,24 +42,79 @@ public class TicketService : ITicketService
         return result;
     }
 
-    public Task<List<TicketForResultDto>> GetAllAsync()
+    public async Task<List<TicketForResultDto>> GetAllAsync()
     {
-        throw new NotImplementedException();
+        var tickets = await ticketRepository.SelectAllAsync();
+        var mappedTickets = new List<TicketForResultDto>();
+
+        foreach (var ticket in tickets)
+        {
+            var item = new TicketForResultDto()
+            {
+                Id = ticket.Id,
+                LandMarkId= ticket.LandMarkId,
+                FlightDuration = ticket.FlightDuration,
+                Price = ticket.Price,
+            };
+            mappedTickets.Add(item);
+        }
+        return mappedTickets;
     }
 
-    public Task<TicketForResultDto> GetByIdAsync(long id)
+    public async Task<TicketForResultDto> GetByIdAsync(long id)
     {
-        throw new NotImplementedException();
+        var ticket = await ticketRepository.SelectByIdAsync(id);
+        if (ticket == null)
+            throw new GeoGemException(404, "Ticket is not found");
+
+        var result = new TicketForResultDto()
+        {
+            Id = ticket.Id,
+            LandMarkId = ticket.LandMarkId,
+            FlightDuration = ticket.FlightDuration,
+            Price = ticket.Price,
+        };
+
+        return result;
     }
 
-    public Task<bool> RemoveAsync(long id)
+    public async Task<bool> RemoveAsync(long id)
     {
-        throw new NotImplementedException();
+        var ticket = await ticketRepository.SelectByIdAsync(id);
+        if (ticket == null)
+            throw new GeoGemException(404, "Ticket is not found");
+
+        await ticketRepository.DeleteAsync(id);
+
+        return true;
     }
 
-    public Task<TicketForResultDto> UpdateAsync(TicketForUpdateDto dto)
+    public async Task<TicketForResultDto> UpdateAsync(TicketForUpdateDto dto)
     {
-        throw new NotImplementedException();
+        var ticket = await ticketRepository.SelectByIdAsync(dto.Id);
+        if (ticket == null)
+            throw new GeoGemException(404, "Ticket is not found");
+
+        var mappedTicket = new Ticket()
+        {
+            Id = dto.Id,
+            LandMarkId = dto.LandMarkId,
+            FlightDuration = dto.FlightDuration,
+            Price = dto.Price,
+            UpdatedAt = DateTime.UtcNow
+        };
+
+        await ticketRepository.UpdateAsync(mappedTicket);
+
+        var result = new TicketForResultDto()
+        {
+            Id = mappedTicket.Id,
+            LandMarkId = mappedTicket.LandMarkId,
+            FlightDuration = mappedTicket.FlightDuration,
+            Price = mappedTicket.Price,
+        };
+
+        return result;
     }
 
     public async Task GenerateIdAsync()
