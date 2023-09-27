@@ -32,7 +32,7 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : Auditabl
         {
             this.Path = DatabasePath.BookingDb;
         }
-        else
+        else if (typeof(TEntity) == typeof(Hotel))
         {
             this.Path = DatabasePath.HotelDb;
         }

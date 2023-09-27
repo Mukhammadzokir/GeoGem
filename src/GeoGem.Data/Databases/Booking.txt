@@ -1,1 +1,38 @@
-﻿
+[
+  {
+    "UserId": 2,
+    "TicketId": 2,
+    "HotelId": 0,
+    "LandMarkId": 1,
+    "Id": 1,
+    "CreatedAt": "2023-09-27T04:50:17.8465498Z",
+    "UpdatedAt": null
+  },
+  {
+    "UserId": 2,
+    "TicketId": 2,
+    "HotelId": 0,
+    "LandMarkId": 1,
+    "Id": 2,
+    "CreatedAt": "2023-09-27T04:52:23.3009303Z",
+    "UpdatedAt": null
+  },
+  {
+    "UserId": 2,
+    "TicketId": 2,
+    "HotelId": 0,
+    "LandMarkId": 1,
+    "Id": 3,
+    "CreatedAt": "2023-09-27T04:53:42.6907998Z",
+    "UpdatedAt": null
+  },
+  {
+    "UserId": 5,
+    "TicketId": 4,
+    "HotelId": 0,
+    "LandMarkId": 2,
+    "Id": 4,
+    "CreatedAt": "2023-09-27T08:15:43.7150333Z",
+    "UpdatedAt": null
+  }
+]

@@ -1,24 +1,24 @@
 [
   {
     "CityId": 1,
-    "Name": "Soat",
+    "Name": "BigBen",
     "Description": null,
-    "ImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Flondon.html&psig=AOvVaw35bbelp--efGEuWsFTDKYD&ust=1695808429802000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODzgeuAyIEDFQAAAAAdAAAAABAJ",
-    "Latitude": 4343344.4,
-    "Longitude": 43434.5,
+    "ImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fplace%2FLondon&psig=AOvVaw0LajPojMCDlVuOozTFHrzd&ust=1695813769040000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJDAgN2UyIEDFQAAAAAdAAAAABAE",
+    "Latitude": 4343.43,
+    "Longitude": 54543.3,
     "Id": 1,
-    "CreatedAt": "2023-09-26T09:55:05.1191765Z",
+    "CreatedAt": "2023-09-26T11:23:52.0306345Z",
     "UpdatedAt": null
   },
   {
-    "CityId": 1,
-    "Name": "Bridge",
-    "Description": null,
-    "ImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lonelyplanet.com%2Fengland%2Flondon&psig=AOvVaw03cf1g7E26elBF76zhHHbE&ust=1695808540064000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNDYzp-ByIEDFQAAAAAdAAAAABAE",
-    "Latitude": 434344.0,
-    "Longitude": 4343.454545,
+    "CityId": 2,
+    "Name": "BurchHalifa",
+    "Description": "Dunyodagi eng katta bino",
+    "ImageUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Filovesayohat.uz%2Fwp-content%2Fuploads%2F2020%2F05%2Fburj-khlaifa-burjkhlaifaae.jpg&tbnid=GPrrgUL3QRPxnM&vet=12ahUKEwi5jr69hsqBAxVsCxAIHTKGDrgQMygMegQIARBw..i&imgrefurl=https%3A%2F%2Filovesayohat.uz%2F2020%2F04%2F30%2Fdubay%2F&docid=44LvP-LWTOijgM&w=1366&h=977&q=dubay%20image&ved=2ahUKEwi5jr69hsqBAxVsCxAIHTKGDrgQMygMegQIARBw",
+    "Latitude": 4343.434,
+    "Longitude": 3434.434,
     "Id": 2,
-    "CreatedAt": "2023-09-26T09:56:31.6361906Z",
+    "CreatedAt": "2023-09-27T05:29:24.9733995Z",
     "UpdatedAt": null
   }
 ]

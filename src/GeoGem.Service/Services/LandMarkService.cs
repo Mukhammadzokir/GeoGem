@@ -58,7 +58,7 @@ public class LandMarkService : ILandMarkService
         {
             var item = new LandMarkForResultDto()
             {
-                Id = _id,
+                Id = landMark.Id,
                 CityId = landMark.CityId,
                 Name = landMark.Name,
                 Description = landMark.Description,
@@ -79,7 +79,7 @@ public class LandMarkService : ILandMarkService
 
         var result = new LandMarkForResultDto()
         {
-            Id = _id,
+            Id = landMark.Id,
             CityId = landMark.CityId,
             Name = landMark.Name,
             Description = landMark.Description,

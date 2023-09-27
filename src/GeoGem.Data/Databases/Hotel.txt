@@ -1,1 +1,29 @@
-﻿
+[
+  {
+    "LandMarkId": 1,
+    "Name": "ShahandHotel",
+    "Price": 90000000.0,
+    "NumberOfRoom": 3,
+    "Id": 1,
+    "CreatedAt": "2023-09-26T11:24:48.5948119Z",
+    "UpdatedAt": null
+  },
+  {
+    "LandMarkId": 1,
+    "Name": "Relax",
+    "Price": 30300300.0,
+    "NumberOfRoom": 2,
+    "Id": 2,
+    "CreatedAt": "2023-09-26T11:25:13.8731943Z",
+    "UpdatedAt": null
+  },
+  {
+    "LandMarkId": 2,
+    "Name": "SheixHotel",
+    "Price": 3000000.0,
+    "NumberOfRoom": 3,
+    "Id": 3,
+    "CreatedAt": "2023-09-27T05:30:50.2615623Z",
+    "UpdatedAt": null
+  }
+]

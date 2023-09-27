@@ -1,18 +1,38 @@
 [
   {
-    "LandMarkId": 2,
-    "FlightDuration": 2,
-    "Price": 4354545.0,
+    "LandMarkId": 1,
+    "FlightDuration": 2.34,
+    "FlightTime": "0001-01-01T00:00:00",
+    "Price": 340000.0,
     "Id": 1,
-    "CreatedAt": "2023-09-26T09:56:55.4697332Z",
+    "CreatedAt": "2023-09-26T11:24:11.8957387Z",
+    "UpdatedAt": null
+  },
+  {
+    "LandMarkId": 1,
+    "FlightDuration": 4.1,
+    "FlightTime": "0001-01-01T00:00:00",
+    "Price": 23233333.0,
+    "Id": 2,
+    "CreatedAt": "2023-09-26T11:24:30.5958601Z",
     "UpdatedAt": null
   },
   {
     "LandMarkId": 2,
-    "FlightDuration": 4,
-    "Price": 32323.0,
-    "Id": 2,
-    "CreatedAt": "2023-09-26T09:57:06.0362807Z",
+    "FlightDuration": 2.7,
+    "FlightTime": "0001-01-01T00:00:00",
+    "Price": 2322333.0,
+    "Id": 3,
+    "CreatedAt": "2023-09-27T05:29:50.0098867Z",
+    "UpdatedAt": null
+  },
+  {
+    "LandMarkId": 2,
+    "FlightDuration": 3.1,
+    "FlightTime": "0001-01-01T00:00:00",
+    "Price": 2000000.0,
+    "Id": 4,
+    "CreatedAt": "2023-09-27T05:30:12.6502213Z",
     "UpdatedAt": null
   }
 ]

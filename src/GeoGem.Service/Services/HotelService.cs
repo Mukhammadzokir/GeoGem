@@ -15,12 +15,11 @@ public class HotelService : IHotelService
     private readonly IRepository<Hotel> hotelRepository = new Repository<Hotel>();
     public async Task<HotelForResultDto> CreateAsync(HotelForCreationDto dto)
     {
+        await GenerateIdAsync();
         var hotel = (await hotelRepository.SelectAllAsync())
             .FirstOrDefault(h => h.Name == dto.Name && h.Price == dto.Price);
         if (hotel != null)
             throw new GeoGemException(409, "Hotel is already exist");
-
-        await GenerateIdAsync();
 
         var hotelForCreate = new Hotel()
         {
@@ -31,6 +30,7 @@ public class HotelService : IHotelService
             NumberOfRoom = dto.NumberOfRoom,
             CreatedAt = DateTime.UtcNow,
         };
+
 
         await hotelRepository.InsertAsync(hotelForCreate);
 

@@ -9,4 +9,5 @@ public class LandMarkForResultDto
     public string ImageUrl { get; set; }
     public double Latitude { get; set; }
     public double Longitude { get; set; }
+    public DateTime CreatedAt { get; set; }
 }

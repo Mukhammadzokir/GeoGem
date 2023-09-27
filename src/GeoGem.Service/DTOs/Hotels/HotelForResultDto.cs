@@ -7,4 +7,5 @@ public class HotelForResultDto
     public string Name { get; set; }
     public decimal Price { get; set; }
     public int NumberOfRoom { get; set; }
+    public DateTime CraetedAt { get; set; }
 }

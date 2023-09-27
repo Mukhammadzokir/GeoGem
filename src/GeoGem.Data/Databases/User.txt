@@ -1,11 +1,38 @@
 [
   {
-    "Name": "def",
-    "Email": "de",
-    "Password": "f",
-    "Balance": 5345.0,
-    "Id": 1,
-    "CreatedAt": "2023-09-26T08:01:35.7781213Z",
+    "Name": "Muxammad",
+    "Email": "a@gmail.com",
+    "Password": "qwert",
+    "Balance": 2835300001.0,
+    "Id": 2,
+    "CreatedAt": "2023-09-27T06:49:58.9181815Z",
+    "UpdatedAt": "2023-09-27T06:49:58.9181821Z"
+  },
+  {
+    "Name": "ali",
+    "Email": "ali@gmail.com",
+    "Password": "oeiro",
+    "Balance": 9409090900000000.0,
+    "Id": 3,
+    "CreatedAt": "2023-09-26T23:51:50.0105566Z",
     "UpdatedAt": null
+  },
+  {
+    "Name": "John",
+    "Email": "j@gamil.com",
+    "Password": "oiu",
+    "Balance": 43400000000.0,
+    "Id": 4,
+    "CreatedAt": "2023-09-26T23:54:03.7485907Z",
+    "UpdatedAt": null
+  },
+  {
+    "Name": "Habib",
+    "Email": "habib@gmail.com",
+    "Password": "habib09",
+    "Balance": 499999995000000.0,
+    "Id": 5,
+    "CreatedAt": "2023-09-27T08:15:35.5205863Z",
+    "UpdatedAt": "2023-09-27T08:15:35.5205868Z"
   }
 ]

@@ -21,8 +21,8 @@ public class AuthenticationService
             {
                 return 1;
             }
-            return 2;
+            return 0;
         }
-        return 3;
+        return 2;
     }
 }
